@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
 body{
     background-image: linear-gradient(
         to bottom,
@@ -7,4 +11,7 @@ body{
         #5f56e7 100%,
     );
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
