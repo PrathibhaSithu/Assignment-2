@@ -157,7 +157,7 @@ nav a:hover {
 .crd-title2{
     margin-top: 20px;
     font-size: 15px;
-    color: #363636;
+    color: #7c7c7c;
 }
 .card-list{
     list-style-position: inside;
@@ -211,28 +211,23 @@ button:nth-of-type(1):hover{
     cursor: pointer;
     color: rgb(255, 255, 255);  
 }
-
 .card-listB{
     list-style-position: inside;
     list-style-image: url("img/availablew.png");
     font-size: 20px;
-    color: white;
-    align-items: left;
-    margin-top: 20px;
+    margin-top: 20px; 
 }
-
-
-
 .btn-grpB{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    margin-top: 45px;
 }
 .BNW{
     padding: 12px 45px;
     border-radius: 10px;
     font-size: 25px;
+    font-weight: 600;
     gap: 05em;
     color: rgb(255, 255, 255);
     display: flex;
@@ -253,5 +248,13 @@ button:nth-of-type(1):hover{
 .BNW:nth-of-type(1):hover{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+}
+.side-img{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+
 }
 
