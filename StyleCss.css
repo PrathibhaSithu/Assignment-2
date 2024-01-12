@@ -114,3 +114,78 @@ nav a:hover {
     padding-left: 850px;
     font-size: 25px;
 }
+.card-list{
+    list-style-position: inside;
+    list-style-image: url("img/available.png");
+    font-size: 20px;
+    align-items: left;
+    margin: 10px;
+}
+.btn-grp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+button{
+    padding: 12px 45px;
+    border-radius: 10px;
+    font-size: 25px;
+    gap: 05em;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+.white-card{
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(40px);
+    border: 2px solid rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+    height: 570px;
+    width: 300px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    cursor: pointer;
+    color: black;
+}
+
+
+button:nth-of-type(1){
+    background-color: black;
+    color: white;
+}
+button:nth-of-type(1):hover{
+    background-color: white;
+    color: black;
+}
+button i{
+    font-size: 30px;
+}
+#heart{
+    color: red;
+    transition: 0.3s ease-in-out;
+}
+#heart:hover{
+    text-shadow: 0 0 25px red,
+                 0 0 50px red;
+}
+@media(max-width:1355px){
+    body{
+        flex-direction: column;
+        gap: 2em;
+        margin: 3em 0;
+    }
+}
