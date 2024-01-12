@@ -18,7 +18,7 @@ body {
     );
     height: 100vh;
     display: flex;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex';font-size: 22px;
 }
 .container{
     height: 100vh;
@@ -56,9 +56,17 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #333;
+    color: #000;
     font-size: 17px;
     font-weight: 800;
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #5f56e7;
 }
 .navbar .btn{
     display: inline-block;
