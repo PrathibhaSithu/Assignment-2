@@ -7,7 +7,14 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-  }
+}
+body {
+    background-image: url("prototype.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    font-family: 'Roboto Flex';font-size: 22px;
+}/*
 body {
     background-image: linear-gradient(
         to bottom,
@@ -19,7 +26,7 @@ body {
     height: 100vh;
     display: flex;
     font-family: 'Roboto Flex';font-size: 22px;
-}
+}*/
 .container{
     height: 100vh;
     width: 100%;
@@ -94,24 +101,25 @@ nav a:hover {
     width: 100%;
     margin-top: 50px;
     align-items: center;
-    padding-left: 650px;
-    font-size: 3em;
+    padding-left: 600px;
+    font-size: 60px;
     font-weight: 700;
 }
 .wrapper{
     width: 100%;
-    margin-top: 15px;
+    margin-top: 10px;
     align-items: center;
-    padding-left: 690px;
-    font-size: 50px;
-    font-weight: 50;
+    padding-left: 640px;
+    font-size: 45px;
+    font-weight: 10px;
 }
 .wrapper2{
     width: 100%;
     margin-top: 15px;
     align-items: center;
-    padding-left: 850px;
+    padding-left: 785px;
     font-size: 25px;
+    color: #363636;
 }
 .card-container {
     display: flex;
@@ -125,7 +133,7 @@ nav a:hover {
     list-style-image: url("img/available.png");
     font-size: 20px;
     align-items: left;
-    margin: 10px;
+    margin-left:30px;
 }
 .card-listB{
     list-style-position: inside;
@@ -142,7 +150,8 @@ nav a:hover {
     border-radius: 15px;
     height: 570px;
     width: 300px;
-    padding-left: 10px;
+    padding-left: 40px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 2em;
@@ -232,4 +241,8 @@ button:nth-of-type(2):hover{
 .BNW:nth-of-type(1):hover{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+}
+.crd-title{
+    font-size: 30px;
+    font-weight: 100;
 }
