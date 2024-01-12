@@ -5,7 +5,13 @@
 .container{
     height: 100vh;
     width: 100%;
-    
+    background-image: linear-gradient(
+        to bottom,
+        #fff4f4 0%,
+        #fff4f4 50%,
+        #5f56e7 50%,
+        #5f56e7 100%,
+    );
     padding-left: 5%;
     padding-right: 5%;
     box-sizing: border-box;
