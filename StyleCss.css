@@ -97,13 +97,15 @@ nav a:hover {
     align-items: center;
     padding-left: 650px;
     font-size: 3em;
+    font-weight: 700;
 }
 .wrapper{
     width: 100%;
     margin-top: 20px;
     align-items: center;
-    padding-left: 650px;
+    padding-left: 700px;
     font-size: 2em;
+    font-weight: 50;
 }
 .wrapper2{
     width: 100%;
