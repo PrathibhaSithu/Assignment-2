@@ -83,7 +83,6 @@ nav a:hover {
 .navbar .btn:hover{
     background: linear-gradient(45deg, #5f56e7, #5f56e7);
 }
-
 .top-content{
     width: 100%;
     height: 100%;
@@ -93,7 +92,7 @@ nav a:hover {
 }
 .wrapper-main{
     width: 100%;
-    margin-top: 90px;
+    margin-top: 50px;
     align-items: center;
     padding-left: 650px;
     font-size: 3em;
@@ -101,18 +100,25 @@ nav a:hover {
 }
 .wrapper{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 15px;
     align-items: center;
     padding-left: 690px;
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 50;
 }
 .wrapper2{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 15px;
     align-items: center;
     padding-left: 850px;
     font-size: 25px;
+}
+.card-container {
+    display: flex;
+    flex-direction: row; 
+    padding-left: 350px; 
+    padding-top: 50px;
+    gap: 70px;
 }
 .card-list{
     list-style-position: inside;
@@ -125,6 +131,7 @@ nav a:hover {
     list-style-position: inside;
     list-style-image: url("img/availablew.png");
     font-size: 20px;
+    color: white;
     align-items: left;
     margin: 10px;
 }
@@ -141,6 +148,20 @@ nav a:hover {
     gap: 2em;
     cursor: pointer;
     color: black;
+}
+.black-card{
+    background-color: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(40px);
+    border: 2px solid rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+    height: 570px;
+    width: 300px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    cursor: pointer;
+    color: rgb(255, 255, 255);  
 }
 .btn-grp{
     display: flex;
@@ -181,24 +202,7 @@ button:nth-of-type(2):hover{
     background-color: black;
     color: white;
 }
-
-
-
-.black-card{
-    background-color: rgba(0, 0, 0, 0.95);
-    backdrop-filter: blur(40px);
-    border: 2px solid rgba(0, 0, 0, 0.9);
-    border-radius: 15px;
-    height: 570px;
-    width: 300px;
-    padding-left: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    cursor: pointer;
-    color: black;
-}
-.btn-grp{
+.btn-grpB{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,48 +221,15 @@ button:nth-of-type(2):hover{
     transition: 0.4s ease-in-out;
     cursor: pointer;
 }
-button:hover{
-    background-color: black;
-    color: white;
+.BNW:hover{
+    background-color: rgb(184, 184, 184);
+    color: rgb(0, 0, 0);
 }
-button:nth-of-type(1){
-    background-color: black;
-    color: white;
+.BNW:nth-of-type(1){
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
-button:nth-of-type(1):hover{
-    background-color: white;
-    color: black;
+.BNW:nth-of-type(1):hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
-button:nth-of-type(2){
-    background-color: white;
-    color: black;
-}
-button:nth-of-type(2):hover{
-    background-color: black;
-    color: white;
-}
-
-<div class="" data-tilt>
-            <h2>Premium</h2>
-            <h3>199 $ / month</h3>
-        <div class="info-2">
-            <div class="description">
-                <p>
-                    For Large scale enterprises and businesses
-                </p>
-            </div>
-            <div class="list">
-                <ul>
-                    <li class="card-list">100 Users</li>
-                    <li class="card-list">1000 transactions</li>
-                    <li class="card-list">500MB Storage</li>
-                    <li class="card-list">API Access</li>
-                    <li class="card-list">Email Support</li>
-                </ul>
-            </div>
-
-            <div class="btn-grp">
-                <button class="BNW">
-                    Buy Now
-                </button>
-            </div>
