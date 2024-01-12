@@ -121,6 +121,27 @@ nav a:hover {
     align-items: left;
     margin: 10px;
 }
+.card-listB{
+    list-style-position: inside;
+    list-style-image: url("img/availablew.png");
+    font-size: 20px;
+    align-items: left;
+    margin: 10px;
+}
+.white-card{
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(40px);
+    border: 2px solid rgba(0, 0, 0, 0.9);
+    border-radius: 15px;
+    height: 570px;
+    width: 300px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    cursor: pointer;
+    color: black;
+}
 .btn-grp{
     display: flex;
     align-items: center;
@@ -144,11 +165,27 @@ button:hover{
     background-color: black;
     color: white;
 }
+button:nth-of-type(1){
+    background-color: black;
+    color: white;
+}
+button:nth-of-type(1):hover{
+    background-color: white;
+    color: black;
+}
+button:nth-of-type(2){
+    background-color: white;
+    color: black;
+}
+button:nth-of-type(2):hover{
+    background-color: black;
+    color: white;
+}
 
 
 
-.white-card{
-    background-color: rgba(255, 255, 255, 0.95);
+.black-card{
+    background-color: rgba(0, 0, 0, 0.95);
     backdrop-filter: blur(40px);
     border: 2px solid rgba(0, 0, 0, 0.9);
     border-radius: 15px;
@@ -161,8 +198,29 @@ button:hover{
     cursor: pointer;
     color: black;
 }
-
-
+.btn-grp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.BNW{
+    padding: 12px 45px;
+    border-radius: 10px;
+    font-size: 25px;
+    gap: 05em;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
 button:nth-of-type(1){
     background-color: black;
     color: white;
@@ -171,21 +229,36 @@ button:nth-of-type(1):hover{
     background-color: white;
     color: black;
 }
-button i{
-    font-size: 30px;
+button:nth-of-type(2){
+    background-color: white;
+    color: black;
 }
-#heart{
-    color: red;
-    transition: 0.3s ease-in-out;
+button:nth-of-type(2):hover{
+    background-color: black;
+    color: white;
 }
-#heart:hover{
-    text-shadow: 0 0 25px red,
-                 0 0 50px red;
-}
-@media(max-width:1355px){
-    body{
-        flex-direction: column;
-        gap: 2em;
-        margin: 3em 0;
-    }
-}
+
+<div class="" data-tilt>
+            <h2>Premium</h2>
+            <h3>199 $ / month</h3>
+        <div class="info-2">
+            <div class="description">
+                <p>
+                    For Large scale enterprises and businesses
+                </p>
+            </div>
+            <div class="list">
+                <ul>
+                    <li class="card-list">100 Users</li>
+                    <li class="card-list">1000 transactions</li>
+                    <li class="card-list">500MB Storage</li>
+                    <li class="card-list">API Access</li>
+                    <li class="card-list">Email Support</li>
+                </ul>
+            </div>
+
+            <div class="btn-grp">
+                <button class="BNW">
+                    Buy Now
+                </button>
+            </div>
