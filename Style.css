@@ -1,74 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: white;
-    color: #003f8f;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #003f8f;
-    padding: 1rem;
-}
-
-header h1 {
-    color: white;
-    margin: 0;
-}
-
-nav ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    margin-right: 1rem;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-}
-
-.pricing-card {
-    background-color: #003f8f;
-    color: white;
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 10px;
-}
-
-.price {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.savings {
-    font-size: 1rem;
-    margin-top: 1rem;
-}
-
-button {
-    background-color: white;
-    color: #003f8f;
-    border: none;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: 1rem;
-}
-
-button:hover {
-    background-color: #ccffff;
-}
-
-footer {
-    background-color: #003f8f;
-    color: white
-
-/* *{
+*{
     margin: 0;
     padding: 0;
 }
@@ -167,4 +97,4 @@ nav ul li a{
     color: #6a7199;
     padding-right: 20px;
     font-size: 14px;
-}*/
+}
