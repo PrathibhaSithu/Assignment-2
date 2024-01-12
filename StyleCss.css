@@ -93,6 +93,22 @@ nav a:hover {
 }
 .wrapper-main{
     width: 100%;
-    margin-top: 30px;
-    
+    margin-top: 90px;
+    align-items: center;
+    padding-left: 650px;
+    font-size: 3em;
+}
+.wrapper{
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    padding-left: 650px;
+    font-size: 2em;
+}
+.wrapper2{
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    padding-left: 650px;
+    font-size: 10px;
 }
