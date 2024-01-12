@@ -30,7 +30,6 @@ body {
 .container{
     height: 100vh;
     width: 100%;
-    
     box-sizing: border-box;
     position: relative;
 }
@@ -132,8 +131,8 @@ nav a:hover {
     list-style-position: inside;
     list-style-image: url("img/available.png");
     font-size: 20px;
-    align-items: left;
-    margin-left:30px;
+    margin-top: 20px;
+   
 }
 .card-listB{
     list-style-position: inside;
@@ -141,7 +140,7 @@ nav a:hover {
     font-size: 20px;
     color: white;
     align-items: left;
-    margin: 10px;
+    margin-top: 20px;
 }
 .white-card{
     background-color: rgba(255, 255, 255, 0.95);
@@ -154,7 +153,7 @@ nav a:hover {
     padding-top: 40px;
     display: flex;
     flex-direction: column;
-    gap: 2em;
+
     cursor: pointer;
     color: black;
 }
