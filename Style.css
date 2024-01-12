@@ -1,4 +1,74 @@
-*{
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #003f8f;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003f8f;
+    padding: 1rem;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.pricing-card {
+    background-color: #003f8f;
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.price {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.savings {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+button {
+    background-color: white;
+    color: #003f8f;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #ccffff;
+}
+
+footer {
+    background-color: #003f8f;
+    color: white
+
+/* *{
     margin: 0;
     padding: 0;
 }
@@ -25,11 +95,6 @@
     height: 130px;
     cursor: pointer;
 }
-.cart{
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
 nav{
     flex: 1;
     padding-left: 60px;
@@ -43,12 +108,19 @@ nav ul li a{
     text-decoration: none;
     color: #333;
 }
+.top-content{
+    display: flex;
+    align-items: center;
+    height: 85vh;
+}
+
 .content h1{
     font-size: 60px;
     font-weight: 100;
     margin-top: 24px;
     margin-bottom: 15px;
     color: #660066;
+    align-items: center;
 }
 .content p{
     font-size: 30px;
@@ -95,4 +167,4 @@ nav ul li a{
     color: #6a7199;
     padding-right: 20px;
     font-size: 14px;
-}
+}*/
