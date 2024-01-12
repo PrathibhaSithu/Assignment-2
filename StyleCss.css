@@ -143,9 +143,9 @@ nav a:hover {
     cursor: pointer;
     color: black;
 }
-.bold-text {
-    font-size: 40px; /* Adjust the size as needed */
-    font-weight: 700;
+.bold-text{
+    font-size: 40px;
+    font-weight: 600;
 }
 .crd-title{
     font-size: 30px;
@@ -154,6 +154,11 @@ nav a:hover {
 .crd-title1{
     margin-top: 20px;
     font-size: 25px;
+}
+.crd-title2{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #363636;
 }
 .card-list{
     list-style-position: inside;
