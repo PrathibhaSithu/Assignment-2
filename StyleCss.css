@@ -23,8 +23,7 @@ body {
 .container{
     height: 100vh;
     width: 100%;
-    padding-left: 18%;
-    padding-right: 10%;
+    
     box-sizing: border-box;
     position: relative;
 }
@@ -35,6 +34,9 @@ body {
     margin: auto;
     display: flex;
     align-items: center;
+    padding-left: 18%;
+    padding-right: 15%;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(206, 206, 206, 0.1) inset;
 }
 .logo{
     width: 130px;
@@ -58,7 +60,7 @@ nav ul li a{
     text-decoration: none;
     color: #000;
     font-size: 17px;
-    font-weight: 800;
+    font-weight: 700;
 }
 nav a {
     color: #000;
@@ -77,6 +79,9 @@ nav a:hover {
     text-decoration: none;
     color: #fff;
     box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+.navbar .btn:hover{
+    background: linear-gradient(45deg, #5f56e7, #5f56e7);
 }
 
 .top-content{
