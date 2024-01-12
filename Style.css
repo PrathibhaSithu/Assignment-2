@@ -5,9 +5,7 @@
 .container{
     height: 100vh;
     width: 100%;
-    background-image: url(imgs/bgimg.jpg);
-    background-position: center;
-    background-size: cover;
+    
     padding-left: 5%;
     padding-right: 5%;
     box-sizing: border-box;
@@ -63,6 +61,16 @@ nav ul li a{
 .content .btn{
     display: inline-block;
     background: linear-gradient(45deg, #1a8cff, #ff66c7);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+.btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #0a0a0a, #000000);
     border-radius: 6px;
     padding: 10px 20px;
     box-sizing: border-box;
