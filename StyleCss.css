@@ -202,12 +202,13 @@ button:nth-of-type(1):hover{
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    color: rgb(255, 255, 255);  
+    color: rgb(255, 255, 255); 
 }
 .card-listB{
     list-style-position: inside;
     list-style-image: url("img/availablew.png");
     font-size: 20px;
+    font-weight: lighter; 
     margin-top: 20px; 
 }
 .btn-grpB{
