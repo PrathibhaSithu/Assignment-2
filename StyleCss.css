@@ -266,9 +266,9 @@ button:nth-of-type(1):hover{
     margin-top: 20px;
 }
 .BNW1{
-    padding: 12px 40px;
+    padding: 12px 20px;
     border-radius: 10px;
-    font-size: 25px;
+    font-size: 20px;
     gap: 05em;
     color: rgb(255, 255, 255);
     display: flex;
